@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\mjpon_000\Downloads\FRC Multiple cameras\Multiple Cameras\Multiple Cameras\2016Robot-master"/>
+			<item value="K:\Code 2016 MOVING FOWARD SOLELY"/>
+			<item value="C:\Users\mjpon_000\Dropbox\Code 2016 MRT"/>
+			<item value="C:\Users\mjpon_000\Downloads\FRC Multiple cameras\Dashboard-master"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>
