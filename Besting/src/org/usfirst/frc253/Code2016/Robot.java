@@ -11,13 +11,13 @@
 
 package org.usfirst.frc253.Code2016;
 
-import org.usfirst.frc253.Code2016.commands.Accel;
 import org.usfirst.frc253.Code2016.commands.AutonomousCommand;
 import org.usfirst.frc253.Code2016.commands.Drivetrain;
 import org.usfirst.frc253.Code2016.subsystems.BallPickUpReal;
 import org.usfirst.frc253.Code2016.subsystems.CameraHolder;
 import org.usfirst.frc253.Code2016.subsystems.LiftSystem;
 
+import edu.wpi.first.wpilibj.CameraServer;
 import edu.wpi.first.wpilibj.IterativeRobot;
 //import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.command.Command;
@@ -34,6 +34,14 @@ import java.util.*;
  * directory.
  */
 public class Robot extends IterativeRobot {
+	CameraServer server;
+
+    public Robot() {
+        server = CameraServer.getInstance();
+        server.setQuality(50);
+        //the camera name (ex "cam0") can be found through the roborio web interface
+        server.startAutomaticCapture("cam1");
+    }
 	
     Command autonomousCommand;
 

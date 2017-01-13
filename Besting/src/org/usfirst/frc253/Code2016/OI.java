@@ -118,8 +118,7 @@ public class OI {
         PortAttackMode = new JoystickButton(rightJoystick, 8);
         PortAttackMode.whenPressed(new PortAttackMode());
         
-        AccelData = new JoystickButton(rightJoystick, 11);
-        AccelData.whenPressed(new Accel());
+
         
         ReverseStraightDrive = new JoystickButton(rightJoystick, 7);
         ReverseStraightDrive.whileHeld(new ReverseStraightDrive());
